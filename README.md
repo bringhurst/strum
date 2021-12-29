@@ -4,6 +4,28 @@ strum
 Strum is a program to generate patterns which can be used to practice strumming
 on a guitar.
 
+Example Output
+--------------
+
+```
+% poetry run strum
+1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+D U     D     U     D   D
+% poetry run strum
+1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+  U D       D   D U     D U D U
+% poetry run strum
+1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+D U   U   U D U D U D       D U
+% poetry run strum
+1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+    D U D   D U D U D     U D
+% poetry run strum
+1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+D U D U D   D   D   D   D     U
+%
+```
+
 Concepts
 --------
 
