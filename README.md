@@ -9,20 +9,14 @@ Example Output
 
 ```
 % poetry run strum
-1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-D U     D     U     D   D
+1 + 2 + 3 + 4 +  |  1 + 2 + 3 + 4 +
+D U D U D U   U  |      D U D U   U
 % poetry run strum
-1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-  U D       D   D U     D U D U
+1 + 2 + 3 + 4 +  |  1 + 2 + 3 + 4 +
+D U D   D U D    |  D U D   D U D U
 % poetry run strum
-1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-D U   U   U D U D U D       D U
-% poetry run strum
-1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-    D U D   D U D U D     U D
-% poetry run strum
-1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-D U D U D   D   D   D   D     U
+1 + 2 + 3 + 4 +  |  1 + 2 + 3 + 4 +
+D U D U D U D    |  D U   U D U D U
 %
 ```
 
@@ -31,18 +25,18 @@ Concepts
 
 Strumming on every up and down beat:
 
-    1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-    D U D U D U D U D U D U D U D U
+    1 + 2 + 3 + 4 +  |   1 + 2 + 3 + 4 +
+    D U D U D U D U  |   D U D U D U D U
 
 Strumming on down beats only:
 
-    1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-    D   D   D   D   D   D   D   D  
+    1 + 2 + 3 + 4 +  |   1 + 2 + 3 + 4 +
+    D   D   D   D    |   D   D   D   D  
     
 Strumming on up beats only:
 
-    1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
-      U   U   U   U   U   U   U   U
+    1 + 2 + 3 + 4 +  |   1 + 2 + 3 + 4 +
+      U   U   U   U  |   U   U   U   U
 
 Usage
 -----

@@ -10,6 +10,9 @@ def main():
         for beat_index in range(0, beats_in_measure):
             print(f"{beat_index+1} + ", end='')
 
+        if measure_index + 1 != number_of_measures:
+            print(" |  ", end='')
+
     print()
 
     for measure_index in range(0, number_of_measures):
@@ -23,5 +26,8 @@ def main():
                 action = ' '
 
             print(f"{action} ", end='')
+
+        if measure_index + 1 != number_of_measures:
+            print(" |  ", end='')
 
     print()
