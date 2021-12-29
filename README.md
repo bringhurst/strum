@@ -38,6 +38,11 @@ Strumming on down beats only:
 
     1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
     D   D   D   D   D   D   D   D  
+    
+Strumming on up beats only:
+
+    1 + 2 + 3 + 4 + 1 + 2 + 3 + 4 +
+      U   U   U   U   U   U   U   U
 
 Usage
 -----
