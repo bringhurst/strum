@@ -1,8 +1,8 @@
 strum
 =====
 
-Strum is a program to generate patterns which can be used to practice strumming
-on a guitar.
+Strum is a program to generate random rhythm patterns which can be used to
+practice strumming on a guitar.
 
 Example Output
 --------------
