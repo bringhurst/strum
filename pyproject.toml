@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "strum"
+version = "0.1.0"
+description = "Generate strum patterns for guitar practice."
+authors = ["Jon Bringhurst <jon@bringhurst.org>"]
+
+[tool.poetry.scripts]
+strum = "strum.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
